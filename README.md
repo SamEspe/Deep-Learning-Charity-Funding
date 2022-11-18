@@ -6,7 +6,7 @@ This project was created as a submission for Homework #21 for Data Visualization
 
 The goal for this project was to build a TensorFlow deep neural network that could predict whether fictional charities would get funded or not. The data set of fictional charities was provided as a CSV file, located in the `Resources` folder. I created and developed the models using Google Colab, so I uploaded the data set to an AWS S3 bucket to access the data in a Google Colab notebook.
 
-This project uses TensorFlow version 2.9.2, Pandas 1.3.5, and SciKit-Learn 1.0.2 packages. Make sure that your environment is compatible with these packages. If your environment is incompatible, the notebooks and output HDF5 files are available at this Google Drive address: https://drive.google.com/drive/folders/11RlxbjVi_kyS8NPmCnPHfQIhZClXpJ9h?usp=sharing.
+This project uses TensorFlow version 2.9.2, Pandas version 1.3.5, and SciKit-Learn version 1.0.2 packages. Make sure that your environment is compatible with these packages. If your environment is incompatible, the notebooks and output HDF5 files are available at this Google Drive address: https://drive.google.com/drive/folders/11RlxbjVi_kyS8NPmCnPHfQIhZClXpJ9h?usp=sharing.
 
 ### Results
 
@@ -63,6 +63,6 @@ This model was trained in the same way as the original. It did not achieve the g
 
 ### Summary
 
-Overall the neural network models did a fair job predicting whether charities would recieve funding. I was not able to reach the goal of 75% accuracy but I was close to it. The modifications I did to my models did not seem to improve the performance.
+Overall the neural network models did a fair job predicting whether charities would receive funding. I was not able to reach the goal of 75% accuracy but I was close to it. The modifications I did to my models did not seem to improve the performance.
 
-I wonder if the neural network is teh best model to use in this case. I would be interested to see if another method of supervised learning, such as a Random Forest Classifier, could produce similar or better results. 
+I wonder if the neural network is the best model to use in this case. I would be interested to see if another method of supervised learning, such as a Random Forest Classifier, could produce similar or better results. 
